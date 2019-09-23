@@ -22,6 +22,12 @@ module.exports = function (hexo) {
             return [];
         }
         const widgets = hexo.extend.helper.get('get_config').bind(this)('widgets');
+        // return widgets.filter(widget => widget.hasOwnProperty('position') && widget.position === position);
+
+        // update: 文章页三栏变两栏
+        if (this.page.layout === 'post') {
+            return widgets.filter(widget => position !== 'right' && widget.hasOwnProperty('position') && widget.position === position)
+        }
         return widgets.filter(widget => widget.hasOwnProperty('position') && widget.position === position);
     });
 
