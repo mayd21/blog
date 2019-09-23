@@ -16,7 +16,7 @@ common:
 navbar:
     Home: '主页'
     Archives: '归档'
-    Categorys: '分类'
+    Categories: '分类'
     Tags: '标签'
     About: '关于'
 widget:

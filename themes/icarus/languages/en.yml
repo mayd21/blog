@@ -16,7 +16,7 @@ common:
 navbar:
     Home: 'Home'
     Archives: 'Archives'
-    Categorys: 'Categorys'
+    Categories: 'Categories'
     Tags: 'Tags'
     About: 'About'
 widget:
