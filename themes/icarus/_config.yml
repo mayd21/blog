@@ -34,7 +34,7 @@ navbar:
     links:
         Download on GitHub:
             icon: fab fa-github
-            url: 'https://github.com/ppoffice/hexo-theme-icarus'
+            url: 'https://github.com/mayd21'
 # Footer section link settings
 footer:
     # Links to be shown on the right of the footer section
@@ -47,7 +47,7 @@ footer:
             url: 'https://creativecommons.org/licenses/by/4.0/'
         Download on GitHub:
             icon: fab fa-github
-            url: 'https://github.com/ppoffice/hexo-theme-icarus'
+            url: 'https://github.com/mayd21/mayd21.github.io'
 # Article display settings
 article:
     # Code highlight settings
@@ -125,11 +125,11 @@ widgets:
         # Where should the widget be placed, left or right
         position: left
         # Author name to be shown in the profile widget
-        author: Your name
+        author: Mayd
         # Title of the author to be shown in the profile widget
-        author_title: Your title
+        author_title: 前端打字员
         # Author's current location to be shown in the profile widget
-        location: Your location
+        location: China
         # Path or URL to the avatar to be shown in the profile widget
         avatar: 
         # Email address for the Gravatar to be shown in the profile widget
@@ -137,12 +137,12 @@ widgets:
         # Whether to show avatar image rounded or square
         avatar_rounded: false
         # Path or URL for the follow button
-        follow_link: 'https://github.com/ppoffice'
+        follow_link: 'https://github.com/mayd21'
         # Links to be shown on the bottom of the profile widget
         social_links:
             Github:
                 icon: fab fa-github
-                url: 'https://github.com/ppoffice'
+                url: 'https://github.com/mayd21'
             Facebook:
                 icon: fab fa-facebook
                 url: 'https://facebook.com'
@@ -168,7 +168,6 @@ widgets:
         # Links to be shown in the links widget
         links:
             Hexo: 'https://hexo.io'
-            PPOffice: 'https://github.com/ppoffice'
     -
         # Widget name
         type: category
