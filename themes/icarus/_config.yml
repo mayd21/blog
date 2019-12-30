@@ -60,7 +60,7 @@ article:
         # Default folding status of the code blocks. Can be "", "folded", "unfolded"
         fold: unfolded
     # Whether to show article thumbnail images
-    thumbnail: true
+    thumbnail: false
     # Whether to show estimate article reading time
     readtime: true
 # Search plugin settings
@@ -80,24 +80,24 @@ donate:
         # Donation entry name
         type: alipay
         # Qrcode image URL
-        qrcode: ''
+        qrcode: 'images/alipayqrcode.jpg'
     -
         # Donation entry name
         type: wechat
         # Qrcode image URL
-        qrcode: ''
-    -
-        # Donation entry name
-        type: paypal
-        # Paypal business ID or email address
-        business: ''
-        # Currency code
-        currency_code: USD
-    -
-        # Donation entry name
-        type: patreon
-        # URL to the Patreon page
-        url: ''
+        qrcode: 'images/wechatqrcode.png'
+    # -
+    #     # Donation entry name
+    #     type: paypal
+    #     # Paypal business ID or email address
+    #     business: ''
+    #     # Currency code
+    #     currency_code: USD
+    # -
+    #     # Donation entry name
+    #     type: patreon
+    #     # URL to the Patreon page
+    #     url: ''
 # Share plugin settings
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Share
 share:
@@ -167,6 +167,7 @@ widgets:
         position: left
         # Links to be shown in the links widget
         links:
+            Mayd: 'https://mayd21.github.io'
             Hexo: 'https://hexo.io'
     -
         # Widget name
