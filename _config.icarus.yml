@@ -1,0 +1,119 @@
+version: 4.0.0
+favicon: /img/favicon.svg
+meta:
+rss:
+logo:
+  text: Mayd'blog
+open_graph:
+  fb_app_id:
+  fb_admins:
+  twitter_id:
+  twitter_site:
+  google_plus:
+navbar:
+  menu:
+    Home: /
+    Archives: /archives
+    Categories: /categories
+    Tags: /tags
+    About: /about
+  links:
+    Download on GitHub:
+      icon: fab fa-github
+      url: "https://github.com/mayd21"
+footer:
+  links:
+    Creative Commons:
+      icon: fab fa-creative-commons
+      url: "https://creativecommons.org/"
+    Attribution 4.0 International:
+      icon: fab fa-creative-commons-by
+      url: "https://creativecommons.org/licenses/by/4.0/"
+    Download on GitHub:
+      icon: fab fa-github
+      url: "https://github.com/mayd21/mayd21.github.io"
+article:
+  highlight:
+    theme: atom-one-light
+    clipboard: true
+    fold: unfolded
+  readtime: true
+search:
+  type: insight
+comment:
+  type:
+#donate:
+#    -
+#        type: alipay
+#        qrcode: images/alipayqrcode.jpg
+#    -
+#        type: wechat
+#        qrcode: images/wechatqrcode.png
+share:
+  type:
+sidebar:
+  left:
+    sticky: false
+  right:
+    sticky: false
+widgets:
+  - type: profile
+    position: left
+    author: Mayd
+    author_title: 前端打字员
+    location: China
+    avatar: /img/avatar.png
+    gravatar:
+    avatar_rounded: false
+    follow_link: "https://github.com/mayd21"
+    social_links:
+      Github:
+        icon: fab fa-github
+        url: "https://github.com/mayd21"
+      Facebook:
+        icon: fab fa-facebook
+        url: "https://facebook.com"
+      Twitter:
+        icon: fab fa-twitter
+        url: "https://twitter.com"
+      Dribbble:
+        icon: fab fa-dribbble
+        url: "https://dribbble.com"
+      RSS:
+        icon: fas fa-rss
+        url: /
+  - type: toc
+    position: left
+  - type: links
+    position: left
+    links:
+      Mayd: "https://mayd21.github.io"
+      Hexo: "https://hexo.io"
+  - type: category
+    position: left
+  - type: tagcloud
+    position: left
+  - type: recent_posts
+    position: right
+  - type: archive
+    position: right
+  - type: tag
+    position: right
+plugins:
+  animejs: true
+  gallery: true
+  outdated-browser: true
+  mathjax: true
+  back-to-top: true
+  google-analytics:
+    tracking_id:
+  baidu-analytics:
+    tracking_id:
+  hotjar:
+    site_id:
+  progressbar: true
+  busuanzi: false
+providers:
+  cdn: jsdelivr
+  fontcdn: google
+  iconcdn: fontawesome
