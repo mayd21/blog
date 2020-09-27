@@ -62,7 +62,7 @@ widgets:
     author: Mayd
     author_title: 前端打字员
     location: China
-    avatar: /img/avatar.png
+    avatar: /img/avatar-custom.png
     gravatar:
     avatar_rounded: false
     follow_link: "https://github.com/mayd21"
