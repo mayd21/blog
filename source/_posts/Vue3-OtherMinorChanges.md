@@ -12,7 +12,7 @@ tags:
 
 <!-- more -->
 
-## 声命周期
+## 生命周期
 
 - 生命周期选项`destoryed`被更名为`unmounted`
 - 生命周期选项`beforeDestory`被更名为`beforeUnmount`
