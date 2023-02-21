@@ -38,7 +38,9 @@ ECMAScript 版本每年都有 ECMA 大会批准并作为标准发布，其所有
 
 - 基本内存模型
 
-### TC39 提案流程
+## TC39 提案
+
+### 提案流程
 
 - Stage 0 (Strawperson)：草案阶段，没有作为真是提案的任何想法
 
@@ -60,7 +62,7 @@ ECMAScript 版本每年都有 ECMA 大会批准并作为标准发布，其所有
 
 ECMA-262 的最新规范和历史规范可以在 [ECMA-262 - Ecma International)](https://www.ecma-international.org/publications-and-standards/standards/ecma-262/) 查看，其中包含了最新草案及历史规范文档。
 
-### 查看浏览器和 Node.js 的兼容情况
+## 查看浏览器和 Node.js 的兼容情况
 
 不同的浏览器对标准的支持程度各不相同，如何查看某个特性是否得到了支持，在哪个版本得到了支持？
 
