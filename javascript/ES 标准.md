@@ -4,15 +4,15 @@
 
 ## JavaScript 与 ECMAScript
 
-我们都知道 JavaScript 语言的核心是 ECMAScript，它是由 [ECMA TC39](https://tc39.es/) 委员会标准化的语言。ECMA 包含对个规范，指定 JavaScript 语言规范的只是其中一个标准，相关标准包括：
+我们都知道 JavaScript 语言的核心是 ECMAScript，它是由 [ECMA TC39](https://tc39.es/) 委员会标准化的语言。ECMA(European Computer Manufacturers Association) 包含对个规范，而 ECMAScript ECMA-262 规范，JavaScript 则是符合这一规范的程序语言，但是 JavaScript 还提供了超出该规范的一些特性。ECMA TC39 相关标准包括：
 
-- ECMA-262 ECMAScript
+- [ECMA-262 ECMAScript](https://tc39.es/ecma262/)
 
-- ECMA-402 国际化 API
+- [ECMA-402 国际化 API](https://tc39.es/ecma402/)
 
-- ECMA-404 JSON
+- [ECMA-404 JSON](https://www.ecma-international.org/publications-and-standards/standards/ecma-404/)
 
-- ECMA-414 ECMAScript 规范套件
+- [ECMA-414 ECMAScript 规范套件](https://www.ecma-international.org/publications-and-standards/standards/ecma-414/)
 
 ### 标准化流程
 
@@ -37,3 +37,35 @@ ECMAScript 版本每年都有 ECMA 大会批准并作为标准发布，其所有
 - [模块系统](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Guide/Modules)
 
 - 基本内存模型
+
+### TC39 提案流程
+
+- Stage 0 (Strawperson)：草案阶段，没有作为真是提案的任何想法
+
+- Stage 1 (Proposal)：补充理由，描述解决方案、用法的说明范例等。在该阶段就会有 polyfill 或者 demo
+
+- Stage 2 (Draft)：用规范的方式来精确的描述语法和语义，进入到该阶段就很可能成为规范
+
+- Stage 3 (Candidate)：已完成规范的内容，但是需要大量的使用和反馈才能进入下一阶段
+
+- Stage 4 (Finished)：已经完成的提案，正式加 ECMAScript 标准中
+
+提案和标准的完成还需要浏览器或者 Node.js 等运行环境实现，但是有些提案还没有到 Stage 4 就已经可以在浏览器中使用，或者有对应的 polyfill 可以使用。
+
+### 如何查看提案？
+
+各个提案目前在哪个阶段？是否被拒绝或者已经完成，都可以在 [tc39/proposals: Tracking ECMAScript Proposals (github.com)](https://github.com/tc39/proposals)  中查看，其中提供了处在各个阶段中的提案详情。
+
+### ECMAScript 历次规范哪里看？
+
+ECMA-262 的最新规范和历史规范可以在 [ECMA-262 - Ecma International)](https://www.ecma-international.org/publications-and-standards/standards/ecma-262/) 查看，其中包含了最新草案及历史规范文档。
+
+### 查看浏览器和 Node.js 的兼容情况
+
+不同的浏览器对标准的支持程度各不相同，如何查看某个特性是否得到了支持，在哪个版本得到了支持？
+
+- [ECMAScript 6 compatibility table](https://kangax.github.io/compat-table/es6/)：ECMA 标准兼容性表格，内部列举了不同版本标准在浏览器、Node.js等环境下的兼容情况
+
+- [Node.js ES2015/ES6, ES2016 and ES2017 support](https://node.green/)：若你只想关注 Node.js 中的兼容情况，可以查看该表格
+
+- [Can I use](https://caniuse.com/)：想要便捷的查询某个 API 在浏览器中的兼容情况？该网站支持直接搜索某个 API 在各个浏览器中的兼容信息。不仅针对 JavaScript，同时可以查询浏览器相关的其他特性的兼容情况，如 CSS、HTML、SVG 等。
