@@ -1,10 +1,10 @@
 # ES 标准
 
-一直以来经常听说 ES6 ES7 等相关的 JavaScript 标准，但是对于其标准的具体包含内容和版本的更新流程以及每个版本的具体新增的特性并没有认真的了解过。因此本次打算首先从 ECMAScript 标准入手，了解 ECMA 标准规范具体包含的内容和表转化过程。并对各个 ECMAScript 所涉及的新的 JavaScript 特性进行一个介绍。
+一直以来经常听说 ES6 ES7 等相关的 JavaScript 标准，但是对于其标准的具体包含内容和版本的更新流程以及每个版本的具体新增的特性并没有认真的了解过。因此本次打算首先从 ECMAScript 标准入手，了解 ECMA 标准规范具体包含的内容和标准转化过程。并对各个 ECMAScript 所涉及的新的 JavaScript 特性进行一个介绍。
 
 ## JavaScript 与 ECMAScript
 
-我们都知道 JavaScript 语言的核心是 ECMAScript，它是由 [ECMA TC39](https://tc39.es/) 委员会标准化的语言。ECMA(European Computer Manufacturers Association) 包含对个规范，而 ECMAScript ECMA-262 规范，JavaScript 则是符合这一规范的程序语言，但是 JavaScript 还提供了超出该规范的一些特性。ECMA TC39 相关标准包括：
+我们都知道 JavaScript 语言的核心是 ECMAScript，它是由 [ECMA TC39](https://tc39.es/) 委员会标准化的语言。ECMA(European Computer Manufacturers Association) 包含多个规范，而 ECMAScript ECMA-262 规范，JavaScript 则是符合这一规范的程序语言，但是 JavaScript 还提供了超出该规范的一些特性。ECMA TC39 相关标准包括：
 
 - [ECMA-262 ECMAScript](https://tc39.es/ecma262/)
 
@@ -16,9 +16,9 @@
 
 ### 标准化流程
 
-ECMAScript 版本每年都有 ECMA 大会批准并作为标准发布，其所有的进展都在 [Ecma TC39 · GitHub](https://github.com/tc39) 上公开。
+ECMAScript 版本每年都由 ECMA 大会批准并作为标准发布，其所有的进展都在 [Ecma TC39 · GitHub](https://github.com/tc39) 上公开。
 
-在 ES 第六版即 ES6 之前通常由其主要版本号代替，例如 ES6、ES5 等，在 ES6 之后规范的发布就一年份进行命名，如 ES2017、ES2018 等。这即是目前对于 ES 版本表述的既有按照年份的表示也有按照版本代号的形式，ES6 即为 ES2015。
+在 ES 第六版即 ES6 之前通常由其主要版本号代替，例如 ES6、ES5 等，在 ES6 之后规范的发布就以年份进行命名，如 ES2017、ES2018 等。这即是目前对于 ES 版本表述的既有按照年份的表示也有按照版本代号的形式，ES6 即为 ES2015。
 
 ### 哪些内容会被纳入 ECMAScript 中？
 
@@ -42,7 +42,7 @@ ECMAScript 版本每年都有 ECMA 大会批准并作为标准发布，其所有
 
 ### 提案流程
 
-- Stage 0 (Strawperson)：草案阶段，没有作为真是提案的任何想法
+- Stage 0 (Strawperson)：草案阶段，没有作为真实提案的任何想法
 
 - Stage 1 (Proposal)：补充理由，描述解决方案、用法的说明范例等。在该阶段就会有 polyfill 或者 demo
 
@@ -56,11 +56,11 @@ ECMAScript 版本每年都有 ECMA 大会批准并作为标准发布，其所有
 
 ### 如何查看提案？
 
-各个提案目前在哪个阶段？是否被拒绝或者已经完成，都可以在 [tc39/proposals: Tracking ECMAScript Proposals (github.com)](https://github.com/tc39/proposals)  中查看，其中提供了处在各个阶段中的提案详情。
+各个提案目前在哪个阶段？是否被拒绝或者已经完成，都可以在 [tc39/proposals: Tracking ECMAScript Proposals](https://github.com/tc39/proposals)  中查看，其中提供了处在各个阶段中的提案详情。
 
 ### ECMAScript 历次规范哪里看？
 
-ECMA-262 的最新规范和历史规范可以在 [ECMA-262 - Ecma International)](https://www.ecma-international.org/publications-and-standards/standards/ecma-262/) 查看，其中包含了最新草案及历史规范文档。
+ECMA-262 的最新规范和历史规范可以在 [ECMA-262 - Ecma International](https://www.ecma-international.org/publications-and-standards/standards/ecma-262/) 查看，其中包含了最新草案及历史规范文档。
 
 ## 查看浏览器和 Node.js 的兼容情况
 
