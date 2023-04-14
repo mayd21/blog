@@ -6,3 +6,7 @@
 
 - [ES 标准怎么看？](javascript/ES_standard.md)
 - [ES 2022 新特性有哪些？](javascript/ES_2022_proposals.md)
+
+## Web
+
+- [登录那些事之OAuth](./web/oauth.md)
